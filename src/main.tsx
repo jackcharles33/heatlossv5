@@ -4,6 +4,7 @@ import App from './App'
 import CssBaseline from '@mui/material/CssBaseline';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import './index.css';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const theme = createTheme({
   palette: {
