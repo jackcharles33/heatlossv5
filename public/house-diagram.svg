@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky Background -->
+  <rect width="800" height="500" fill="#87CEEB"/>
+  
+  <!-- Decorative Clouds -->
+  <circle cx="100" cy="100" r="30" fill="rgba(255,255,255,0.8)"/>
+  <circle cx="130" cy="100" r="25" fill="rgba(255,255,255,0.8)"/>
+  <circle cx="700" cy="150" r="35" fill="rgba(255,255,255,0.8)"/>
+  <circle cx="730" cy="150" r="25" fill="rgba(255,255,255,0.8)"/>
+  
+  <!-- Ground/Grass -->
+  <rect y="500" width="800" height="100" fill="#90EE90"/>
+  
+  <!-- House Structure -->
+  <g id="house">
+    <!-- Foundation -->
+    <rect x="150" y="450" width="500" height="50" fill="#8B7355"/>
+    
+    <!-- Main House Body -->
+    <rect x="150" y="150" width="500" height="300" fill="#D2B48C"/>
+    
+    <!-- Main Roof -->
+    <path d="M400 50 L650 150 L150 150 Z" fill="#8B4513"/>
+    
+    <!-- Garage -->
+    <rect x="150" y="300" width="200" height="150" fill="#C8AD7F"/>
+    <rect x="170" y="320" width="160" height="110" fill="#A0522D"/> <!-- Garage door -->
+    
+    <!-- Windows -->
+    <g id="windows">
+      <!-- Upper floor windows -->
+      <rect x="400" y="200" width="80" height="80" fill="#B0E0E6" stroke="#8B4513" stroke-width="5"/>
+      <rect x="520" y="200" width="80" height="80" fill="#B0E0E6" stroke="#8B4513" stroke-width="5"/>
+      
+      <!-- Lower floor windows -->
+      <rect x="400" y="350" width="80" height="80" fill="#B0E0E6" stroke="#8B4513" stroke-width="5"/>
+      <rect x="520" y="350" width="80" height="80" fill="#B0E0E6" stroke="#8B4513" stroke-width="5"/>
+    </g>
+    
+    <!-- Attic Window -->
+    <circle cx="400" cy="100" r="20" fill="#B0E0E6" stroke="#8B4513" stroke-width="5"/>
+  </g>
+</svg>
